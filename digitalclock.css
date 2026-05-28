@@ -1,0 +1,52 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family:sans-serif;
+}
+
+body {
+  height: 100vh;
+ background: lightblue;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.container {
+ text-align: center;
+}
+
+.clock-card {
+ background: black;
+ padding: 40px 60px;
+ border-radius: 14px;
+ box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+.clock-card h1 {
+ color: antiquewhite;
+ margin-bottom: 30px;
+}
+
+.time {
+ font-size: 64px;
+ color: white;
+ margin-bottom: 15px;
+ text-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+}
+
+.date {
+ color: seashell;
+ font-size: 18px;
+ margin-bottom: 30px;
+}
+
+button {
+ background: gray;
+ color: white;
+ padding:  12px;
+ border-radius: 10%;
+ font-size: 10px;
+}
+
